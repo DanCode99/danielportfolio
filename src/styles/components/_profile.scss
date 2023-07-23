@@ -1,0 +1,103 @@
+.profile{
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-bottom: 1rem;
+
+    p{
+        line-height: 2rem;
+        font-size: $med;
+        margin-top: 4rem;
+    }
+    h1{
+        text-transform: uppercase;
+        font-size: $big;
+        letter-spacing: 2px;
+        font-weight: bold;
+    }
+
+    .img{
+        background-color: $red;
+        width: 15rem;
+        height: 20rem;
+        margin-bottom: 1rem;
+    }
+
+}
+.contact-profile{
+    font-size: $big;
+    text-align: center;
+    padding: 10px;
+    margin-top: 1rem;
+    a{
+        margin: 0 10px 0 10px;
+    }
+    i:hover, i:focus{
+        color: $red;
+    }
+}
+
+.animate-letter{
+    color: $red;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+@media screen and (min-width: 700px) {
+    .profile{
+
+        p{
+            margin-top: 0;
+        }
+
+        .img{
+            background-color: $red;
+            width: 25rem;
+            height: 33rem;
+            margin-bottom: 1rem;
+            border-radius: 15px;
+        }
+        
+        padding-top: 5rem;
+
+        .profile-content{
+            font-size: $med;
+            padding-top: 1.5rem;
+
+            p{
+                font-size: $big;
+            }
+
+            h1{
+                font-size: 5rem;
+            }
+        }
+
+        .contact-profile{
+            font-size: 4rem;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .profile{
+        flex-direction: row;
+
+        .img{
+            background-color: $red;
+            min-width: 30rem;
+            height: 40rem;
+        }
+
+        .profile-content{
+            padding: 5rem 0;
+            margin-left: 6rem;
+
+            h1{
+                font-size: 7rem;
+            }
+        }
+    }
+    
+}

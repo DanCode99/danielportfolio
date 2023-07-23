@@ -1,0 +1,45 @@
+@import "./variables/variables";
+@import "./components/app";
+@import "./components/animatedbg";
+@import "./components/profile";
+@import "./components/about";
+@import "./components/projects";
+@import "./components/contact";
+*, h1, p{
+    margin: 0;
+    padding: 0;
+    color: $white;
+    font-family: 'Rubik', sans-serif;
+}
+
+.app{
+    max-width: 100%;
+}
+
+img{
+    width: 100%;
+}
+
+.img{
+    background-color: $red;
+    border-radius: 10px;
+    width: 15rem;
+    height: 20rem;
+    margin-bottom: 1rem;
+
+    img{
+        border-radius: 10px;
+        width: 100%;
+        margin-bottom: 1rem;
+        position: relative;
+        top: -2rem;
+        right: -2rem;
+        z-index: 1;
+    }
+}
+
+
+.h3{
+    margin-bottom: 1rem;
+    font-size: $big;
+}
