@@ -37,7 +37,6 @@
 }
 .portfolio .center {
   display: flex;
-  background-color: rgb(12, 11, 11);
   flex-direction: column;
   margin: 0 auto;
   padding: 1rem 1.5rem;
@@ -497,7 +496,7 @@ img {
   z-index: 1;
 }
 
-z .h3 {
+.h3 {
   margin-bottom: 1rem;
   font-size: 2.5rem;
 }/*# sourceMappingURL=styles.css.map */
